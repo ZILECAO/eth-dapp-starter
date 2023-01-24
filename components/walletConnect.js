@@ -18,7 +18,7 @@ export function WalletConnect() {
     setBalance(ethers.utils.formatEther(balance));
   };
 
-  // talking with metamask to get the accounts with wallet connections
+  // talking with metamask to get the accounts with wallet connection
   async function requestAccount() {
     console.log('Requesting account...');
 
